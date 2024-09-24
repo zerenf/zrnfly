@@ -230,14 +230,17 @@ export default Flight;
 // import Link from "@mui/material/Link";
 // import { Typography } from "@mui/material";
 // import axios from "axios";
+// import dotenv from "dotenv"
+
+// dotenv.config()
 
 // const Flight = () => {
 // 	const [flights, setFlights] = useState([]);
 // 	const [loading, setLoading] = useState(true);
 // 	const [error, setError] = useState("");
 
-// 	const api_key = "dd175434a62eba09ead4421748b6bf9a";
-// 	const api_id = "b0f88e8d";
+// 	const api_key = process.env.API_KEY;
+// 	const api_id = process.env.API_ID;
 
 // 	useEffect(() => {
 // 		const fetchFlights = async () => {
